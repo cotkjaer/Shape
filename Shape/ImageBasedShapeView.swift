@@ -178,17 +178,3 @@ extension ImageBasedShapeView
     
     override public var description : String { return super.description + ", shape: \(shape), fill-color: \(fillColor), stroke-color: \(strokeColor)" }
 }
-
-@IBDesignable
-public class PolygonView : ShapeView
-{
-    @IBInspectable
-    public var sides : Int = 3 { didSet { shape = Polygon(sides: sides) } }
-    
-    override func setup()
-    {
-        shape = Polygon(sides: sides)
-        
-        super.setup()
-    }
-}

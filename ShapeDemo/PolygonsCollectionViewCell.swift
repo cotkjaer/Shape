@@ -11,5 +11,5 @@ import Shape
 
 class PolygonsCollectionViewCell: UICollectionViewCell
 {
-    @IBOutlet weak var polygonView: PolygonView?
+    @IBOutlet weak var polygonView: ShapeView?
 }
