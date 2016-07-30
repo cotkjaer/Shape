@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="myx-wq-wvR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Shape-->
+        <scene sceneID="O0Q-99-GzI">
+            <objects>
+                <viewController id="myx-wq-wvR" customClass="ShapeViewController" customModule="ShapeDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lqY-Mv-tb6"/>
+                        <viewControllerLayoutGuide type="bottom" id="885-g5-joP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ubQ-nY-3Np">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="psd-lN-alt">
+                                <rect key="frame" x="20" y="236" width="400" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F6a-ad-I9K" customClass="ShapeView" customModule="Shape">
+                                <rect key="frame" x="20" y="66" width="560" height="401"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.0" green="0.68627450980000004" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="1" green="0.86817904459999995" blue="0.071721377310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="strokeWidthRelative" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shapeRotation">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Mnh-ce-zKD" appends="YES" id="ciw-49-w7m"/>
+                                </connections>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.01" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="iLu-CL-wgL">
+                                <rect key="frame" x="261" y="28" width="118" height="31"/>
+                                <connections>
+                                    <action selector="handleBorderWidthSlider:" destination="myx-wq-wvR" eventType="valueChanged" id="Qlf-C8-Exn"/>
+                                </connections>
+                            </slider>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GAv-6h-Aqm">
+                                <rect key="frame" x="20" y="473" width="166" height="70"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mai-Pc-DdW">
+                                        <rect key="frame" x="28" y="20" width="31" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.68627450980000004" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Blue"/>
+                                        <connections>
+                                            <action selector="handleButton:" destination="myx-wq-wvR" eventType="touchUpInside" id="yQD-h4-T9u"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYg-kr-7hU">
+                                        <rect key="frame" x="108" y="20" width="30" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Red"/>
+                                        <connections>
+                                            <action selector="handleButton:" destination="myx-wq-wvR" eventType="touchUpInside" id="zza-xO-ZMW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.97999999999999998" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="psd-lN-alt" firstAttribute="bottom" secondItem="F6a-ad-I9K" secondAttribute="bottom" id="30o-kd-dK5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GAv-6h-Aqm" secondAttribute="trailing" id="4iC-Ef-XpY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="F6a-ad-I9K" secondAttribute="trailing" id="Dcr-yG-SuT"/>
+                            <constraint firstItem="iLu-CL-wgL" firstAttribute="top" secondItem="lqY-Mv-tb6" secondAttribute="bottom" constant="20" symbolic="YES" id="Kqg-Ax-F5z"/>
+                            <constraint firstItem="GAv-6h-Aqm" firstAttribute="leading" secondItem="ubQ-nY-3Np" secondAttribute="leadingMargin" id="X3F-Az-TOu"/>
+                            <constraint firstItem="F6a-ad-I9K" firstAttribute="leading" secondItem="ubQ-nY-3Np" secondAttribute="leadingMargin" id="Zcs-L4-Iio"/>
+                            <constraint firstItem="885-g5-joP" firstAttribute="top" secondItem="GAv-6h-Aqm" secondAttribute="bottom" constant="20" symbolic="YES" id="d6N-Ow-iU8"/>
+                            <constraint firstItem="iLu-CL-wgL" firstAttribute="leading" secondItem="ubQ-nY-3Np" secondAttribute="leadingMargin" id="l0Q-sq-nSW"/>
+                            <constraint firstItem="psd-lN-alt" firstAttribute="leading" secondItem="F6a-ad-I9K" secondAttribute="leading" id="l7A-MF-Qai"/>
+                            <constraint firstItem="psd-lN-alt" firstAttribute="trailing" secondItem="F6a-ad-I9K" secondAttribute="trailing" id="r7D-Gk-ooA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iLu-CL-wgL" secondAttribute="trailing" id="s2I-mC-Owi"/>
+                            <constraint firstItem="psd-lN-alt" firstAttribute="top" secondItem="F6a-ad-I9K" secondAttribute="top" id="tPC-Ri-7mD"/>
+                            <constraint firstItem="GAv-6h-Aqm" firstAttribute="top" secondItem="F6a-ad-I9K" secondAttribute="bottom" constant="8" symbolic="YES" id="xJB-cQ-SCY"/>
+                            <constraint firstItem="F6a-ad-I9K" firstAttribute="top" secondItem="iLu-CL-wgL" secondAttribute="bottom" constant="8" symbolic="YES" id="yGO-TS-stB"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Shape" id="vL4-Bn-9Wl"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BgI-iZ-2GN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Mnh-ce-zKD">
+                    <connections>
+                        <action selector="handleShapeTapped:" destination="myx-wq-wvR" id="9O5-5P-tOC"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="293" y="467"/>
+        </scene>
+    </scenes>
+</document>

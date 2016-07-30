@@ -7,22 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F4B32941C8D7A3A00275253 /* Arithmetic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713221C89A6BF00B6B218 /* Arithmetic.framework */; };
+		8F4B32951C8D7A3A00275253 /* Arithmetic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713221C89A6BF00B6B218 /* Arithmetic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F4B32961C8D7A3A00275253 /* Collections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713231C89A6BF00B6B218 /* Collections.framework */; };
+		8F4B32971C8D7A3A00275253 /* Collections.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713231C89A6BF00B6B218 /* Collections.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F4B32981C8D7A3A00275253 /* Debug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713241C89A6BF00B6B218 /* Debug.framework */; };
+		8F4B32991C8D7A3A00275253 /* Debug.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713241C89A6BF00B6B218 /* Debug.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F4B329A1C8D7A3A00275253 /* Graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713261C89A6BF00B6B218 /* Graphics.framework */; };
+		8F4B329B1C8D7A3A00275253 /* Graphics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713261C89A6BF00B6B218 /* Graphics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F4B329C1C8D7A3B00275253 /* Path.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713271C89A6BF00B6B218 /* Path.framework */; };
+		8F4B329D1C8D7A3B00275253 /* Path.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713271C89A6BF00B6B218 /* Path.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F4B329F1C8D7B9800275253 /* Select.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F4B329E1C8D7B9800275253 /* Select.storyboard */; };
+		8F55D77B1D48C70A00E58FBB /* Ellipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F55D77A1D48C70A00E58FBB /* Ellipse.swift */; };
+		8F55D77D1D48CAB300E58FBB /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F55D77C1D48CAB300E58FBB /* Circle.swift */; };
+		8F55D77F1D48CBDE00E58FBB /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F55D77E1D48CBDE00E58FBB /* Polygon.swift */; };
+		8F55D7811D48CD7B00E58FBB /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F55D7801D48CD7B00E58FBB /* Rectangle.swift */; };
+		8F55D7831D48CE3400E58FBB /* SuperEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F55D7821D48CE3400E58FBB /* SuperEllipse.swift */; };
+		8F55D7851D48CF2B00E58FBB /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F55D7841D48CF2B00E58FBB /* Drop.swift */; };
+		8F55D7861D48D61100E58FBB /* Path.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713271C89A6BF00B6B218 /* Path.framework */; };
+		8F55D7871D48D61100E58FBB /* Graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713261C89A6BF00B6B218 /* Graphics.framework */; };
+		8F55D7881D48D61100E58FBB /* Debug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713241C89A6BF00B6B218 /* Debug.framework */; };
+		8F55D7891D48D61100E58FBB /* Collections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713231C89A6BF00B6B218 /* Collections.framework */; };
+		8F55D78A1D48D61100E58FBB /* Arithmetic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713221C89A6BF00B6B218 /* Arithmetic.framework */; };
+		8F55D78C1D48D65F00E58FBB /* Arithmetic.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8F7713221C89A6BF00B6B218 /* Arithmetic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F55D78D1D48D66000E58FBB /* Collections.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8F7713231C89A6BF00B6B218 /* Collections.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F55D78E1D48D66000E58FBB /* Debug.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8F7713241C89A6BF00B6B218 /* Debug.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F55D78F1D48D66000E58FBB /* Graphics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8F7713261C89A6BF00B6B218 /* Graphics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F55D7901D48D66000E58FBB /* Path.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8F7713271C89A6BF00B6B218 /* Path.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F55D7961D49176F00E58FBB /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F55D7951D49176F00E58FBB /* Star.swift */; };
+		8F55D79A1D4B4AD500E58FBB /* Shape.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F55D7991D4B4AD500E58FBB /* Shape.storyboard */; };
+		8F55D79C1D4B4AEA00E58FBB /* ShapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F55D79B1D4B4AEA00E58FBB /* ShapeViewController.swift */; };
+		8F55D7B01D4BB3FD00E58FBB /* Heart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F55D7AF1D4BB3FD00E58FBB /* Heart.swift */; };
+		8F55D7B21D4BBB4100E58FBB /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F55D7B11D4BBB4100E58FBB /* ShapeView.swift */; };
+		8F55D7BC1D4C9BC400E58FBB /* Polygons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F55D7BB1D4C9BC400E58FBB /* Polygons.storyboard */; };
+		8F55D7BE1D4C9BEC00E58FBB /* PolygonsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F55D7BD1D4C9BEC00E58FBB /* PolygonsCollectionViewController.swift */; };
+		8F55D7C01D4C9BFF00E58FBB /* PolygonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F55D7BF1D4C9BFF00E58FBB /* PolygonsCollectionViewCell.swift */; };
 		8F6285BA1C6DF56E00523B0D /* Shape.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F6285B91C6DF56E00523B0D /* Shape.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F6285C11C6DF56E00523B0D /* Shape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6285B61C6DF56E00523B0D /* Shape.framework */; };
 		8F6285C61C6DF56E00523B0D /* ShapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6285C51C6DF56E00523B0D /* ShapeTests.swift */; };
 		8F6285D71C6DF5CE00523B0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6285D61C6DF5CE00523B0D /* AppDelegate.swift */; };
-		8F6285D91C6DF5CE00523B0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6285D81C6DF5CE00523B0D /* ViewController.swift */; };
-		8F6285DC1C6DF5CE00523B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6285DA1C6DF5CE00523B0D /* Main.storyboard */; };
 		8F6285DE1C6DF5CE00523B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6285DD1C6DF5CE00523B0D /* Assets.xcassets */; };
 		8F6285E11C6DF5CE00523B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6285DF1C6DF5CE00523B0D /* LaunchScreen.storyboard */; };
 		8F6285E61C6DF5DC00523B0D /* Shape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6285B61C6DF56E00523B0D /* Shape.framework */; };
 		8F6285E71C6DF5DC00523B0D /* Shape.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6285B61C6DF56E00523B0D /* Shape.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8F6285FD1C6DF75400523B0D /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6285FC1C6DF75400523B0D /* Shape.swift */; };
 		8F6286021C6DF7EF00523B0D /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 8F6286011C6DF7EF00523B0D /* Cartfile */; };
-		8F6286041C6DF93B00523B0D /* Silverback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6286031C6DF93B00523B0D /* Silverback.framework */; };
-		8F6286061C6DF9D200523B0D /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6286051C6DF9D200523B0D /* ShapeView.swift */; };
-		8F6286081C6DFBB700523B0D /* Silverback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6286031C6DF93B00523B0D /* Silverback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8FA5B3641C707D1C00C4BED6 /* Silverback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6286031C6DF93B00523B0D /* Silverback.framework */; };
+		8F6286061C6DF9D200523B0D /* ImageBasedShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6286051C6DF9D200523B0D /* ImageBasedShapeView.swift */; };
+		8F7713281C89A6BF00B6B218 /* Arithmetic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713221C89A6BF00B6B218 /* Arithmetic.framework */; };
+		8F7713291C89A6BF00B6B218 /* Collections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713231C89A6BF00B6B218 /* Collections.framework */; };
+		8F77132A1C89A6BF00B6B218 /* Debug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713241C89A6BF00B6B218 /* Debug.framework */; };
+		8F77132C1C89A6BF00B6B218 /* Graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713261C89A6BF00B6B218 /* Graphics.framework */; };
+		8F77132D1C89A6BF00B6B218 /* Path.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7713271C89A6BF00B6B218 /* Path.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,14 +78,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8F6285EA1C6DF5DC00523B0D /* Embed Frameworks */ = {
+		8F55D78B1D48D64D00E58FBB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8F6286081C6DFBB700523B0D /* Silverback.framework in Embed Frameworks */,
+				8F55D78C1D48D65F00E58FBB /* Arithmetic.framework in CopyFiles */,
+				8F55D78D1D48D66000E58FBB /* Collections.framework in CopyFiles */,
+				8F55D78E1D48D66000E58FBB /* Debug.framework in CopyFiles */,
+				8F55D78F1D48D66000E58FBB /* Graphics.framework in CopyFiles */,
+				8F55D7901D48D66000E58FBB /* Path.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6285EA1C6DF5DC00523B0D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8F4B329B1C8D7A3A00275253 /* Graphics.framework in Embed Frameworks */,
+				8F4B32951C8D7A3A00275253 /* Arithmetic.framework in Embed Frameworks */,
 				8F6285E71C6DF5DC00523B0D /* Shape.framework in Embed Frameworks */,
+				8F4B329D1C8D7A3B00275253 /* Path.framework in Embed Frameworks */,
+				8F4B32991C8D7A3A00275253 /* Debug.framework in Embed Frameworks */,
+				8F4B32971C8D7A3A00275253 /* Collections.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,6 +111,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8F4B329E1C8D7B9800275253 /* Select.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Select.storyboard; sourceTree = "<group>"; };
+		8F55D77A1D48C70A00E58FBB /* Ellipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ellipse.swift; sourceTree = "<group>"; };
+		8F55D77C1D48CAB300E58FBB /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		8F55D77E1D48CBDE00E58FBB /* Polygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+		8F55D7801D48CD7B00E58FBB /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		8F55D7821D48CE3400E58FBB /* SuperEllipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperEllipse.swift; sourceTree = "<group>"; };
+		8F55D7841D48CF2B00E58FBB /* Drop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drop.swift; sourceTree = "<group>"; };
+		8F55D7951D49176F00E58FBB /* Star.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		8F55D7991D4B4AD500E58FBB /* Shape.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Shape.storyboard; sourceTree = "<group>"; };
+		8F55D79B1D4B4AEA00E58FBB /* ShapeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeViewController.swift; sourceTree = "<group>"; };
+		8F55D7AF1D4BB3FD00E58FBB /* Heart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heart.swift; sourceTree = "<group>"; };
+		8F55D7B11D4BBB4100E58FBB /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		8F55D7BB1D4C9BC400E58FBB /* Polygons.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Polygons.storyboard; sourceTree = "<group>"; };
+		8F55D7BD1D4C9BEC00E58FBB /* PolygonsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolygonsCollectionViewController.swift; sourceTree = "<group>"; };
+		8F55D7BF1D4C9BFF00E58FBB /* PolygonsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolygonsCollectionViewCell.swift; sourceTree = "<group>"; };
 		8F6285B61C6DF56E00523B0D /* Shape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6285B91C6DF56E00523B0D /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
 		8F6285BB1C6DF56E00523B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,15 +134,17 @@
 		8F6285C71C6DF56E00523B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F6285D41C6DF5CE00523B0D /* ShapeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6285D61C6DF5CE00523B0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F6285D81C6DF5CE00523B0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8F6285DB1C6DF5CE00523B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F6285DD1C6DF5CE00523B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F6285E01C6DF5CE00523B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F6285E21C6DF5CE00523B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F6285FC1C6DF75400523B0D /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		8F6286011C6DF7EF00523B0D /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		8F6286031C6DF93B00523B0D /* Silverback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Silverback.framework; path = Carthage/Build/iOS/Silverback.framework; sourceTree = "<group>"; };
-		8F6286051C6DF9D200523B0D /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		8F6286051C6DF9D200523B0D /* ImageBasedShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBasedShapeView.swift; sourceTree = "<group>"; };
+		8F7713221C89A6BF00B6B218 /* Arithmetic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Arithmetic.framework; path = Carthage/Build/iOS/Arithmetic.framework; sourceTree = "<group>"; };
+		8F7713231C89A6BF00B6B218 /* Collections.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Collections.framework; path = Carthage/Build/iOS/Collections.framework; sourceTree = "<group>"; };
+		8F7713241C89A6BF00B6B218 /* Debug.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Debug.framework; path = Carthage/Build/iOS/Debug.framework; sourceTree = "<group>"; };
+		8F7713261C89A6BF00B6B218 /* Graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Graphics.framework; path = Carthage/Build/iOS/Graphics.framework; sourceTree = "<group>"; };
+		8F7713271C89A6BF00B6B218 /* Path.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Path.framework; path = Carthage/Build/iOS/Path.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +152,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6286041C6DF93B00523B0D /* Silverback.framework in Frameworks */,
+				8F7713281C89A6BF00B6B218 /* Arithmetic.framework in Frameworks */,
+				8F7713291C89A6BF00B6B218 /* Collections.framework in Frameworks */,
+				8F77132A1C89A6BF00B6B218 /* Debug.framework in Frameworks */,
+				8F77132C1C89A6BF00B6B218 /* Graphics.framework in Frameworks */,
+				8F77132D1C89A6BF00B6B218 /* Path.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +164,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F55D7861D48D61100E58FBB /* Path.framework in Frameworks */,
+				8F55D7871D48D61100E58FBB /* Graphics.framework in Frameworks */,
+				8F55D7881D48D61100E58FBB /* Debug.framework in Frameworks */,
+				8F55D7891D48D61100E58FBB /* Collections.framework in Frameworks */,
+				8F55D78A1D48D61100E58FBB /* Arithmetic.framework in Frameworks */,
 				8F6285C11C6DF56E00523B0D /* Shape.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,8 +177,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FA5B3641C707D1C00C4BED6 /* Silverback.framework in Frameworks */,
+				8F4B329A1C8D7A3A00275253 /* Graphics.framework in Frameworks */,
+				8F4B32941C8D7A3A00275253 /* Arithmetic.framework in Frameworks */,
 				8F6285E61C6DF5DC00523B0D /* Shape.framework in Frameworks */,
+				8F4B329C1C8D7A3B00275253 /* Path.framework in Frameworks */,
+				8F4B32981C8D7A3A00275253 /* Debug.framework in Frameworks */,
+				8F4B32961C8D7A3A00275253 /* Collections.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,10 +198,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8F55D7C11D4D464900E58FBB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8F55D7B11D4BBB4100E58FBB /* ShapeView.swift */,
+				8F6286051C6DF9D200523B0D /* ImageBasedShapeView.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		8F6285AC1C6DF56E00523B0D = {
 			isa = PBXGroup;
 			children = (
-				8F6286031C6DF93B00523B0D /* Silverback.framework */,
+				8F7713221C89A6BF00B6B218 /* Arithmetic.framework */,
+				8F7713231C89A6BF00B6B218 /* Collections.framework */,
+				8F7713241C89A6BF00B6B218 /* Debug.framework */,
+				8F7713261C89A6BF00B6B218 /* Graphics.framework */,
+				8F7713271C89A6BF00B6B218 /* Path.framework */,
 				8F6286011C6DF7EF00523B0D /* Cartfile */,
 				8F6285B81C6DF56E00523B0D /* Shape */,
 				8F6285C41C6DF56E00523B0D /* ShapeTests */,
@@ -142,7 +238,15 @@
 			children = (
 				8F02BE181C84754900BA2646 /* Supporting Files */,
 				8F6285FC1C6DF75400523B0D /* Shape.swift */,
-				8F6286051C6DF9D200523B0D /* ShapeView.swift */,
+				8F55D7821D48CE3400E58FBB /* SuperEllipse.swift */,
+				8F55D7801D48CD7B00E58FBB /* Rectangle.swift */,
+				8F55D77A1D48C70A00E58FBB /* Ellipse.swift */,
+				8F55D77C1D48CAB300E58FBB /* Circle.swift */,
+				8F55D77E1D48CBDE00E58FBB /* Polygon.swift */,
+				8F55D7841D48CF2B00E58FBB /* Drop.swift */,
+				8F55D7AF1D4BB3FD00E58FBB /* Heart.swift */,
+				8F55D7951D49176F00E58FBB /* Star.swift */,
+				8F55D7C11D4D464900E58FBB /* UI */,
 			);
 			path = Shape;
 			sourceTree = "<group>";
@@ -160,8 +264,12 @@
 			isa = PBXGroup;
 			children = (
 				8F6285D61C6DF5CE00523B0D /* AppDelegate.swift */,
-				8F6285D81C6DF5CE00523B0D /* ViewController.swift */,
-				8F6285DA1C6DF5CE00523B0D /* Main.storyboard */,
+				8F4B329E1C8D7B9800275253 /* Select.storyboard */,
+				8F55D7BB1D4C9BC400E58FBB /* Polygons.storyboard */,
+				8F55D7BD1D4C9BEC00E58FBB /* PolygonsCollectionViewController.swift */,
+				8F55D7BF1D4C9BFF00E58FBB /* PolygonsCollectionViewCell.swift */,
+				8F55D7991D4B4AD500E58FBB /* Shape.storyboard */,
+				8F55D79B1D4B4AEA00E58FBB /* ShapeViewController.swift */,
 				8F6285DD1C6DF5CE00523B0D /* Assets.xcassets */,
 				8F6285DF1C6DF5CE00523B0D /* LaunchScreen.storyboard */,
 				8F6285E21C6DF5CE00523B0D /* Info.plist */,
@@ -208,6 +316,7 @@
 				8F6285BC1C6DF56E00523B0D /* Sources */,
 				8F6285BD1C6DF56E00523B0D /* Frameworks */,
 				8F6285BE1C6DF56E00523B0D /* Resources */,
+				8F55D78B1D48D64D00E58FBB /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -227,7 +336,6 @@
 				8F6285D11C6DF5CE00523B0D /* Frameworks */,
 				8F6285D21C6DF5CE00523B0D /* Resources */,
 				8F6285EA1C6DF5DC00523B0D /* Embed Frameworks */,
-				8F62860A1C6DFBEA00523B0D /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -300,38 +408,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4B329F1C8D7B9800275253 /* Select.storyboard in Resources */,
 				8F6285E11C6DF5CE00523B0D /* LaunchScreen.storyboard in Resources */,
+				8F55D79A1D4B4AD500E58FBB /* Shape.storyboard in Resources */,
+				8F55D7BC1D4C9BC400E58FBB /* Polygons.storyboard in Resources */,
 				8F6285DE1C6DF5CE00523B0D /* Assets.xcassets in Resources */,
-				8F6285DC1C6DF5CE00523B0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		8F62860A1C6DFBEA00523B0D /* Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Silverback.framework",
-			);
-			name = "Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F6285B11C6DF56E00523B0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6286061C6DF9D200523B0D /* ShapeView.swift in Sources */,
+				8F55D7961D49176F00E58FBB /* Star.swift in Sources */,
+				8F55D77B1D48C70A00E58FBB /* Ellipse.swift in Sources */,
+				8F55D77F1D48CBDE00E58FBB /* Polygon.swift in Sources */,
+				8F55D7851D48CF2B00E58FBB /* Drop.swift in Sources */,
+				8F55D7831D48CE3400E58FBB /* SuperEllipse.swift in Sources */,
+				8F55D7B21D4BBB4100E58FBB /* ShapeView.swift in Sources */,
+				8F55D7B01D4BB3FD00E58FBB /* Heart.swift in Sources */,
+				8F55D77D1D48CAB300E58FBB /* Circle.swift in Sources */,
+				8F55D7811D48CD7B00E58FBB /* Rectangle.swift in Sources */,
+				8F6286061C6DF9D200523B0D /* ImageBasedShapeView.swift in Sources */,
 				8F6285FD1C6DF75400523B0D /* Shape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,8 +449,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6285D91C6DF5CE00523B0D /* ViewController.swift in Sources */,
+				8F55D79C1D4B4AEA00E58FBB /* ShapeViewController.swift in Sources */,
 				8F6285D71C6DF5CE00523B0D /* AppDelegate.swift in Sources */,
+				8F55D7BE1D4C9BEC00E58FBB /* PolygonsCollectionViewController.swift in Sources */,
+				8F55D7C01D4C9BFF00E58FBB /* PolygonsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,14 +472,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8F6285DA1C6DF5CE00523B0D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F6285DB1C6DF5CE00523B0D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8F6285DF1C6DF5CE00523B0D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -494,6 +589,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.Shape";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REEXPORTED_LIBRARY_PATHS = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -516,6 +612,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.Shape";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REEXPORTED_LIBRARY_PATHS = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -523,6 +620,10 @@
 		8F6285CE1C6DF56E00523B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ShapeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.ShapeTests";
@@ -533,6 +634,10 @@
 		8F6285CF1C6DF56E00523B0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ShapeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.ShapeTests";
@@ -543,32 +648,38 @@
 		8F6285E41C6DF5CE00523B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/**",
 				);
 				INFOPLIST_FILE = ShapeDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/Carthage/Build/iOS @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.ShapeDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REZ_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		8F6285E51C6DF5CE00523B0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/**",
 				);
 				INFOPLIST_FILE = ShapeDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/Carthage/Build/iOS @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.ShapeDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REZ_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
